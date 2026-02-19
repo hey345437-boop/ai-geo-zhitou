@@ -1,0 +1,111 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.kiro/
+
+# Environment variables - 重要：不要上传敏感信息
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.next/
+out/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+.jest/
+
+# Database - 不要上传数据库文件
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+redis_data/
+neo4j_data/
+neo4j_logs/
+rabbitmq_data/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+uploads/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Frontend specific
+frontend/dist/
+frontend/.vite/
+frontend/.turbo/
+frontend/node_modules/
+
+# Backend specific
+backend/.pytest_cache/
+backend/htmlcov/
+backend/.mypy_cache/
+backend/__pycache__/
+backend/uploads/
+
+# Secrets - 重要：不要上传密钥
+*.pem
+*.key
+*.crt
+*.p12
+secrets/
+credentials/
+
+# AI/ML models - 不要上传大文件
+*.h5
+*.pkl
+*.model
+models/
+
+# Reports - 测试报告可以不上传
+RED_TEAM_TEST_REPORT.md
+TEST_SUMMARY_CN.md
+AI_CODE_CLEANUP_CHECKLIST.md
+AI_CODE_TRACES.md
+VERIFICATION_COMPLETE.md
+QUICK_START.md
+完成总结.md
+
